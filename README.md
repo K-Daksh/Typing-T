@@ -48,6 +48,7 @@ My personal favourite :
 ## Authors
 
 * **Daksh Kitukale** 
+* **Mukund Solanki** 
 
 ## Copyright 
 
