@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+body{
+    margin: 0;
+    background-image: url(/blob-scene-haikei.png );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+h1{
+    margin: 25px;
+}
+.head{
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.typer{
+    display: flex;
+    justify-content: center;
+}
+
+.typer-btn{
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.btn-help{
+    visibility: hidden;
+    border: none;
+    width: 200px;
+    height: 40px;
+    margin-top: 2em;
+    font-size: 1.3em;
+    border-radius: 25px;
+    background-color:#fcffe7 ;
+    color:#2B3467 ;
+}
+
+.toolbar{
+    display: flex;
+    justify-content: center;
+    padding:1.5em ;
+}
+
+.btn-toolbar{
+    border:none;
+    font-size: 1.3em;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color:#fcffe7 ;
+    color: #EB455F;
+    margin-top: 0.3em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.container{
+    margin: 0;
+    position: relative;
+    width: 55.6em;
+    border: none;
+    border-radius: 25px;
+    height: 12.49em;
+    background-color: rgba(14, 14, 14, 0);
+    
+    backdrop-filter: blur(10px);
+    writing-mode:sideways-rl;
+    word-wrap: break-word;
+}
+.default-text{ 
+    padding:20px;
+    position: absolute;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 850px;
+    height: 160px;
+    color: black;
+    font-size: 1.7em;
+    
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    border: none;
+}
+.above-text{
+    margin: 0;
+    z-index: 9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.168);
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.align-wpn{
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    color: white;
+}
+textarea {
+    
+    resize: none;
+    background-color:rgba(151, 150, 150, 0.23);
+    border: none;
+    border-radius: 25px;
+}
+textarea::placeholder{
+    color: rgb(156, 154, 154);
+}
+.btn-toolbar, .btn-clr:hover{
+    cursor: pointer;
+}
+.errors{
+    margin: 5px;
+    font-size: 17px;
+    margin-right: 15px;
+    font-weight: 600;
+    color: white;
+    text-align: end;
+}
+.btn-help:hover{
+    cursor: pointer;
+}
+.hid{
+    visibility: hidden;
+}
+.anim-text{
+    margin-top: 25px;
+}
+.static-text{
+    margin:0;
+    margin-left: 25px;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    color: #EB455F;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.bbn{
+    margin-bottom: 0.5em;
+}
