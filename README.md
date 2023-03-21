@@ -4,8 +4,8 @@ This is a website made out of JavaScript, it's main purpose was to implement bas
 
 ## <h2>Note</h2>
 
-This project is running live on the [Following Link](https://k-daksh.github.io/TypingT/)
-<h3>https://k-daksh.github.io/TypingT/</h3>
+This project is running live on the [Following Link](https://k-daksh.github.io/Typing-T/)
+<h3>https://k-daksh.github.io/Typing-T/</h3>
 
 ## Introduction
 
